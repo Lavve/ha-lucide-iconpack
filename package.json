@@ -1,0 +1,8 @@
+{
+  "name": "lucide-iconpack",
+  "version": "0.1.0",
+  "author": "C-son",
+  "dependencies": {
+    "lucide-static": "^0.276.0"
+  }
+}
