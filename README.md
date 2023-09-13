@@ -1,8 +1,8 @@
-# Lucide iconpack for Home Assistant
+# HA Lucide iconpack for Home Assistant
 
 <p align="center"><img width="410" src="https://lucide.dev/logo-text.svg" alt="Lucide Logo"></p>
 
-This enables all the awesome [Lucide icons](https://lucide.dev/) to your Home Assistant. Current version of the Lucide package is [v.0.276.0](https://github.com/lucide-icons/lucide/releases/tag/0.276.0).
+This enables all the awesome [Lucide icons](https://lucide.dev/) to your Home Assistant. Current version of the Lucide package in this addon is [v.0.276.0](https://github.com/lucide-icons/lucide/releases/tag/0.276.0).
 
 ## Table of Content
 
@@ -16,7 +16,7 @@ This enables all the awesome [Lucide icons](https://lucide.dev/) to your Home As
 
 ### HACS
 
-Recommended way to install Lucide iconpack is via [Home Assistant Community Store](https://hacs.xyz)
+Recommended way to install HA Lucide iconpack is via [Home Assistant Community Store](https://hacs.xyz)
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Lavve&repository=ha-lucide-iconpack&category=frontend)
 
@@ -66,7 +66,7 @@ To add custom repositories please follow [this guide](https://hacs.xyz/docs/faq/
 
 ## User manual
 
-Lucide iconpack uses the prefix `luc:` followed by the icon name
+HA Lucide iconpack uses the prefix `luc:` followed by the icon name
 
 Example: `luc:egg` ![Preview](https://raw.githubusercontent.com/lucide-icons/lucide/7feae886013856a10052656180cdf1ad4439a44c/icons/egg.svg)
 
@@ -74,7 +74,7 @@ Example: `luc:qr-code` ![Preview](https://raw.githubusercontent.com/lucide-icons
 
 ### Example
 
-Example of Lucide iconpack in a lovelace card:
+Example of HA Lucide iconpack in a lovelace card:
 
 ```yaml
 entities:
@@ -88,6 +88,6 @@ entities:
     icon: 'luc:music'
     name: Music
 show_header_toggle: false
-title: Lucide iconpack
+title: HA Lucide iconpack
 type: entities
 ```
