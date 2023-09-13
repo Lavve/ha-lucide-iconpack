@@ -1,8 +1,12 @@
 {
   "name": "ha-lucide-iconpack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "C-son",
+  "devDependencies": {
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
   "dependencies": {
-    "lucide-static": "^0.276.0"
+    "lucide-static": "0.276.0"
   }
 }
